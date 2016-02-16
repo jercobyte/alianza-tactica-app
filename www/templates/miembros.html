@@ -1,0 +1,9 @@
+<ion-view view-title="Miembros del club">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="miembro in miembros" href="#/app/miembros/{{miembro.id}}">
+        {{miembro.nombre}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
