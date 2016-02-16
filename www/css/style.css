@@ -1,1 +1,16 @@
 /* Empty. Add your own CSS if you like */
+
+.logolateral {
+	width: 80%;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 5%;
+}
+
+.logolateral img {
+	width: 100%;
+}
+
+.scroll {
+	
+}
