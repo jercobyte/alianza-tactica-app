@@ -14,3 +14,44 @@
 .socialButtons {
 	text-align: center;
 }
+
+.socialButtons img {
+	width: 25%;
+}
+
+.imagenmiembro {
+	width: 100%;
+}
+
+.cartamiembro {
+	border: solid 1px black;
+}
+
+.socialprofile {
+	text-align: center;
+	font-size: 50px;
+	background-color: #AEACAC;
+}
+
+.socialprofile i {
+	margin: 3%;
+}
+
+a { color: inherit; }
+
+.descripcion {
+	background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.8)), url('../img/fondo.jpg');
+	background-repeat: no-repeat;
+    background-size: 200%;
+    background-position-x: 50%;
+    background-position-y: 90%;
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+}
+
+.leyenda {
+	margin: 10%;
+	color: #E6E6E6;
+}

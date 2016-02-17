@@ -1,4 +1,14 @@
 <ion-view view-title="{{miembro.nombre}}">
   <ion-content>
+	<div class="card cartamiembro">
+	  <div class="item item-text-wrap">
+	    <img src="{{miembro.imagen}}" class="imagenmiembro">
+	  </div>
+	  <div class="item item-divider socialprofile">
+    	<a ng-show="miembro.facebook" href="{{miembro.facebook}}"><i class="icon ion-social-facebook"></i></a>
+    	<i ng-show="miembro.twitter" href="{{miembro.twitter}}" class="icon ion-social-twitter"></i>
+    	<i ng-show="miembro.instagram" href="{{miembro.instagram}}" class="icon ion-social-instagram"></i>
+  	  </div>
+	</div>
   </ion-content>
 </ion-view>
