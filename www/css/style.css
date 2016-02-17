@@ -55,3 +55,14 @@ a { color: inherit; }
 	margin: 10%;
 	color: #E6E6E6;
 }
+
+.botoncompartir {
+	display: inline-block;
+	margin-top: 10%;
+    margin-left: 80%;
+    padding: 5%;
+}
+
+.botoncompartir i {
+	font-size: 30px;
+}
