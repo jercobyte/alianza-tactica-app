@@ -19,4 +19,6 @@
   </feature>
   <allow-intent href="http://*/*" />
   <allow-intent href="https://*/*" />
+  <preference name="orientation" value="portrait" />
+  <preference name="SplashScreen" value="none"/>
 </widget>
